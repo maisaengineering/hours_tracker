@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBBF771B159B6A9A007F9F98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF771A159B6A9A007F9F98 /* UIKit.framework */; };
+		BBBF771D159B6A9A007F9F98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF771C159B6A9A007F9F98 /* Foundation.framework */; };
+		BBBF771F159B6A9A007F9F98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBF771E159B6A9A007F9F98 /* CoreGraphics.framework */; };
+		BBBF7725159B6A9A007F9F98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBBF7723159B6A9A007F9F98 /* InfoPlist.strings */; };
+		BBBF7727159B6A9A007F9F98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF7726159B6A9A007F9F98 /* main.m */; };
+		BBBF772B159B6A9A007F9F98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF772A159B6A9A007F9F98 /* AppDelegate.m */; };
+		BBBF7738159B6AB8007F9F98 /* JobsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF7736159B6AB7007F9F98 /* JobsViewController.m */; };
+		BBBF7739159B6AB8007F9F98 /* JobsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBF7737159B6AB7007F9F98 /* JobsViewController.xib */; };
+		BBBF773E159B6ACE007F9F98 /* ExportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF773C159B6ACE007F9F98 /* ExportViewController.m */; };
+		BBBF773F159B6ACE007F9F98 /* ExportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBF773D159B6ACE007F9F98 /* ExportViewController.xib */; };
+		BBBF7743159B6AE0007F9F98 /* PayPeriodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF7741159B6AE0007F9F98 /* PayPeriodsViewController.m */; };
+		BBBF7744159B6AE0007F9F98 /* PayPeriodsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBF7742159B6AE0007F9F98 /* PayPeriodsViewController.xib */; };
+		BBBF7748159B6AF2007F9F98 /* EntriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF7746159B6AF2007F9F98 /* EntriesViewController.m */; };
+		BBBF7749159B6AF2007F9F98 /* EntriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBF7747159B6AF2007F9F98 /* EntriesViewController.xib */; };
+		BBBF774D159B6E33007F9F98 /* AddJobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF774B159B6E33007F9F98 /* AddJobViewController.m */; };
+		BBBF774E159B6E33007F9F98 /* AddJobViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBF774C159B6E33007F9F98 /* AddJobViewController.xib */; };
+		BBBF775E159B9548007F9F98 /* DesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF775C159B9547007F9F98 /* DesignViewController.m */; };
+		BBBF775F159B9548007F9F98 /* DesignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBF775D159B9548007F9F98 /* DesignViewController.xib */; };
+		BBBF7763159B9F29007F9F98 /* StartDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF7761159B9F29007F9F98 /* StartDateViewController.m */; };
+		BBBF7764159B9F29007F9F98 /* StartDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBF7762159B9F29007F9F98 /* StartDateViewController.xib */; };
+		BBBF7768159B9F46007F9F98 /* WorkedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBF7766159B9F46007F9F98 /* WorkedViewController.m */; };
+		BBBF7769159B9F46007F9F98 /* WorkedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBF7767159B9F46007F9F98 /* WorkedViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBBF7716159B6A9A007F9F98 /* HoursTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoursTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBF771A159B6A9A007F9F98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BBBF771C159B6A9A007F9F98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BBBF771E159B6A9A007F9F98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BBBF7722159B6A9A007F9F98 /* HoursTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoursTracker-Info.plist"; sourceTree = "<group>"; };
+		BBBF7724159B6A9A007F9F98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BBBF7726159B6A9A007F9F98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBBF7728159B6A9A007F9F98 /* HoursTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoursTracker-Prefix.pch"; sourceTree = "<group>"; };
+		BBBF7729159B6A9A007F9F98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBBF772A159B6A9A007F9F98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBBF7735159B6AB7007F9F98 /* JobsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JobsViewController.h; path = ../JobsViewController.h; sourceTree = "<group>"; };
+		BBBF7736159B6AB7007F9F98 /* JobsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JobsViewController.m; path = ../JobsViewController.m; sourceTree = "<group>"; };
+		BBBF7737159B6AB7007F9F98 /* JobsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JobsViewController.xib; path = ../JobsViewController.xib; sourceTree = "<group>"; };
+		BBBF773B159B6ACE007F9F98 /* ExportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExportViewController.h; path = ../ExportViewController.h; sourceTree = "<group>"; };
+		BBBF773C159B6ACE007F9F98 /* ExportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExportViewController.m; path = ../ExportViewController.m; sourceTree = "<group>"; };
+		BBBF773D159B6ACE007F9F98 /* ExportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ExportViewController.xib; path = ../ExportViewController.xib; sourceTree = "<group>"; };
+		BBBF7740159B6AE0007F9F98 /* PayPeriodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayPeriodsViewController.h; path = ../PayPeriodsViewController.h; sourceTree = "<group>"; };
+		BBBF7741159B6AE0007F9F98 /* PayPeriodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PayPeriodsViewController.m; path = ../PayPeriodsViewController.m; sourceTree = "<group>"; };
+		BBBF7742159B6AE0007F9F98 /* PayPeriodsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PayPeriodsViewController.xib; path = ../PayPeriodsViewController.xib; sourceTree = "<group>"; };
+		BBBF7745159B6AF2007F9F98 /* EntriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntriesViewController.h; path = ../EntriesViewController.h; sourceTree = "<group>"; };
+		BBBF7746159B6AF2007F9F98 /* EntriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntriesViewController.m; path = ../EntriesViewController.m; sourceTree = "<group>"; };
+		BBBF7747159B6AF2007F9F98 /* EntriesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EntriesViewController.xib; path = ../EntriesViewController.xib; sourceTree = "<group>"; };
+		BBBF774A159B6E33007F9F98 /* AddJobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddJobViewController.h; path = ../AddJobViewController.h; sourceTree = "<group>"; };
+		BBBF774B159B6E33007F9F98 /* AddJobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddJobViewController.m; path = ../AddJobViewController.m; sourceTree = "<group>"; };
+		BBBF774C159B6E33007F9F98 /* AddJobViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddJobViewController.xib; path = ../AddJobViewController.xib; sourceTree = "<group>"; };
+		BBBF775B159B9547007F9F98 /* DesignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignViewController.h; sourceTree = "<group>"; };
+		BBBF775C159B9547007F9F98 /* DesignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesignViewController.m; sourceTree = "<group>"; };
+		BBBF775D159B9548007F9F98 /* DesignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignViewController.xib; sourceTree = "<group>"; };
+		BBBF7760159B9F28007F9F98 /* StartDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartDateViewController.h; sourceTree = "<group>"; };
+		BBBF7761159B9F29007F9F98 /* StartDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartDateViewController.m; sourceTree = "<group>"; };
+		BBBF7762159B9F29007F9F98 /* StartDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartDateViewController.xib; sourceTree = "<group>"; };
+		BBBF7765159B9F45007F9F98 /* WorkedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkedViewController.h; sourceTree = "<group>"; };
+		BBBF7766159B9F46007F9F98 /* WorkedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkedViewController.m; sourceTree = "<group>"; };
+		BBBF7767159B9F46007F9F98 /* WorkedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkedViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBBF7713159B6A9A007F9F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF771B159B6A9A007F9F98 /* UIKit.framework in Frameworks */,
+				BBBF771D159B6A9A007F9F98 /* Foundation.framework in Frameworks */,
+				BBBF771F159B6A9A007F9F98 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBBF770B159B6A99007F9F98 = {
+			isa = PBXGroup;
+			children = (
+				BBBF7765159B9F45007F9F98 /* WorkedViewController.h */,
+				BBBF7766159B9F46007F9F98 /* WorkedViewController.m */,
+				BBBF7767159B9F46007F9F98 /* WorkedViewController.xib */,
+				BBBF7760159B9F28007F9F98 /* StartDateViewController.h */,
+				BBBF7761159B9F29007F9F98 /* StartDateViewController.m */,
+				BBBF7762159B9F29007F9F98 /* StartDateViewController.xib */,
+				BBBF775B159B9547007F9F98 /* DesignViewController.h */,
+				BBBF775C159B9547007F9F98 /* DesignViewController.m */,
+				BBBF775D159B9548007F9F98 /* DesignViewController.xib */,
+				BBBF7720159B6A9A007F9F98 /* HoursTracker */,
+				BBBF7719159B6A9A007F9F98 /* Frameworks */,
+				BBBF7717159B6A9A007F9F98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBBF7717159B6A9A007F9F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF7716159B6A9A007F9F98 /* HoursTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBBF7719159B6A9A007F9F98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF771A159B6A9A007F9F98 /* UIKit.framework */,
+				BBBF771C159B6A9A007F9F98 /* Foundation.framework */,
+				BBBF771E159B6A9A007F9F98 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBBF7720159B6A9A007F9F98 /* HoursTracker */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF7729159B6A9A007F9F98 /* AppDelegate.h */,
+				BBBF772A159B6A9A007F9F98 /* AppDelegate.m */,
+				BBBF7745159B6AF2007F9F98 /* EntriesViewController.h */,
+				BBBF7746159B6AF2007F9F98 /* EntriesViewController.m */,
+				BBBF7747159B6AF2007F9F98 /* EntriesViewController.xib */,
+				BBBF7740159B6AE0007F9F98 /* PayPeriodsViewController.h */,
+				BBBF7741159B6AE0007F9F98 /* PayPeriodsViewController.m */,
+				BBBF7742159B6AE0007F9F98 /* PayPeriodsViewController.xib */,
+				BBBF773B159B6ACE007F9F98 /* ExportViewController.h */,
+				BBBF773C159B6ACE007F9F98 /* ExportViewController.m */,
+				BBBF773D159B6ACE007F9F98 /* ExportViewController.xib */,
+				BBBF7735159B6AB7007F9F98 /* JobsViewController.h */,
+				BBBF7736159B6AB7007F9F98 /* JobsViewController.m */,
+				BBBF7737159B6AB7007F9F98 /* JobsViewController.xib */,
+				BBBF774A159B6E33007F9F98 /* AddJobViewController.h */,
+				BBBF774B159B6E33007F9F98 /* AddJobViewController.m */,
+				BBBF774C159B6E33007F9F98 /* AddJobViewController.xib */,
+				BBBF7721159B6A9A007F9F98 /* Supporting Files */,
+			);
+			path = HoursTracker;
+			sourceTree = "<group>";
+		};
+		BBBF7721159B6A9A007F9F98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBBF7722159B6A9A007F9F98 /* HoursTracker-Info.plist */,
+				BBBF7723159B6A9A007F9F98 /* InfoPlist.strings */,
+				BBBF7726159B6A9A007F9F98 /* main.m */,
+				BBBF7728159B6A9A007F9F98 /* HoursTracker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBBF7715159B6A9A007F9F98 /* HoursTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBF772E159B6A9A007F9F98 /* Build configuration list for PBXNativeTarget "HoursTracker" */;
+			buildPhases = (
+				BBBF7712159B6A9A007F9F98 /* Sources */,
+				BBBF7713159B6A9A007F9F98 /* Frameworks */,
+				BBBF7714159B6A9A007F9F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoursTracker;
+			productName = HoursTracker;
+			productReference = BBBF7716159B6A9A007F9F98 /* HoursTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBBF770D159B6A99007F9F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BBBF7710159B6A99007F9F98 /* Build configuration list for PBXProject "HoursTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BBBF770B159B6A99007F9F98;
+			productRefGroup = BBBF7717159B6A9A007F9F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBBF7715159B6A9A007F9F98 /* HoursTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBBF7714159B6A9A007F9F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF7725159B6A9A007F9F98 /* InfoPlist.strings in Resources */,
+				BBBF7739159B6AB8007F9F98 /* JobsViewController.xib in Resources */,
+				BBBF773F159B6ACE007F9F98 /* ExportViewController.xib in Resources */,
+				BBBF7744159B6AE0007F9F98 /* PayPeriodsViewController.xib in Resources */,
+				BBBF7749159B6AF2007F9F98 /* EntriesViewController.xib in Resources */,
+				BBBF774E159B6E33007F9F98 /* AddJobViewController.xib in Resources */,
+				BBBF775F159B9548007F9F98 /* DesignViewController.xib in Resources */,
+				BBBF7764159B9F29007F9F98 /* StartDateViewController.xib in Resources */,
+				BBBF7769159B9F46007F9F98 /* WorkedViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBBF7712159B6A9A007F9F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBF7727159B6A9A007F9F98 /* main.m in Sources */,
+				BBBF772B159B6A9A007F9F98 /* AppDelegate.m in Sources */,
+				BBBF7738159B6AB8007F9F98 /* JobsViewController.m in Sources */,
+				BBBF773E159B6ACE007F9F98 /* ExportViewController.m in Sources */,
+				BBBF7743159B6AE0007F9F98 /* PayPeriodsViewController.m in Sources */,
+				BBBF7748159B6AF2007F9F98 /* EntriesViewController.m in Sources */,
+				BBBF774D159B6E33007F9F98 /* AddJobViewController.m in Sources */,
+				BBBF775E159B9548007F9F98 /* DesignViewController.m in Sources */,
+				BBBF7763159B9F29007F9F98 /* StartDateViewController.m in Sources */,
+				BBBF7768159B9F46007F9F98 /* WorkedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBBF7723159B6A9A007F9F98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBBF7724159B6A9A007F9F98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBBF772C159B6A9A007F9F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBBF772D159B6A9A007F9F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBBF772F159B6A9A007F9F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoursTracker/HoursTracker-Prefix.pch";
+				INFOPLIST_FILE = "HoursTracker/HoursTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BBBF7730159B6A9A007F9F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoursTracker/HoursTracker-Prefix.pch";
+				INFOPLIST_FILE = "HoursTracker/HoursTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBBF7710159B6A99007F9F98 /* Build configuration list for PBXProject "HoursTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBF772C159B6A9A007F9F98 /* Debug */,
+				BBBF772D159B6A9A007F9F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBBF772E159B6A9A007F9F98 /* Build configuration list for PBXNativeTarget "HoursTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBF772F159B6A9A007F9F98 /* Debug */,
+				BBBF7730159B6A9A007F9F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBBF770D159B6A99007F9F98 /* Project object */;
+}
